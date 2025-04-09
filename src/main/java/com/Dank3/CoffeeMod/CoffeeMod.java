@@ -3,8 +3,11 @@ package com.Dank3.CoffeeMod;
 import com.Dank3.CoffeeMod.block.ModBlocks;
 import com.Dank3.CoffeeMod.item.ModCreativeModeTabs;
 import com.Dank3.CoffeeMod.item.ModItems;
+import net.minecraft.ResourceLocationException;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Block;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,6 +56,7 @@ public class CoffeeMod
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
