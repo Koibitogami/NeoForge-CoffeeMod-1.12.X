@@ -3,5 +3,9 @@
   "item.dankscoffeemod.raw_bismuth": "Raw Bismuth",
 
   "block.dankscoffeemod.bismuth_block": "Block of Bismuth",
-  "block.dankscoffeemod.bismuth_ore": "Bismuth Ore"
+  "block.dankscoffeemod.bismuth_ore": "Bismuth Ore",
+  "block.dankscoffeemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+
+  "creativetab.dankscoffeemod.bismuth_items": "Bismuth Items",
+  "creativetab.dankscoffeemod.bismuth_blocks": "Bismuth Blocks"
 }
