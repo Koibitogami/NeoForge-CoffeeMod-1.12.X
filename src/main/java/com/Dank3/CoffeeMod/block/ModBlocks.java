@@ -1,5 +1,6 @@
 package com.Dank3.CoffeeMod.block;
 
+import com.Dank3.CoffeeMod.block.custom.MagicBlock;
 import com.Dank3.CoffeeMod.item.ModItems;
 import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -37,7 +38,8 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(3f, 8f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            ()-> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
