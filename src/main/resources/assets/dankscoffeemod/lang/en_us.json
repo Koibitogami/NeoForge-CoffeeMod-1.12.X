@@ -12,5 +12,13 @@
   "block.dankscoffeemod.magic_block": "Magic Block",
 
   "creativetab.dankscoffeemod.bismuth_items": "Bismuth Items",
-  "creativetab.dankscoffeemod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.dankscoffeemod.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.coffeemod.magic_block.tooltip": "This block is very §9MAGICAL§r",
+
+  "tooltip.coffeemod.chisel.tooltip": "Press §eShift§r for more Information",
+  "tooltip.coffeemod.chisel.shift_down": "It change blocks when right clicking on them",
+
+  "tooltip.coffeemod.radish.tooltip": "This tastes REALLY GREAT!"
+
 }
